@@ -1,0 +1,53 @@
+/* exercício 1 */
+.main-body {
+    border: 2px solid black;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 11px;
+    color: darkblue;
+    line-height: 2em;
+}
+
+/* exercício 2 */
+.table {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: auto;
+    border-spacing: 0;
+    text-align: center;
+    width: 600px;
+}
+
+.table th {
+    padding: 1em;
+}
+
+.table tr:nth-child(even) {
+    background:lightgray;
+}
+
+.table-cabecalho {
+    background-color: #78b200;
+    color: white;
+}
+
+.table td:nth-child(1) {
+    width: 5%;
+    text-align: left;
+}
+
+.table td:nth-child(2) {
+    color: #0D5188;
+}
+
+.table td:nth-child(4) {
+    width: 15%;
+}
+
+.table td:nth-child(5) {
+    width: 15%;
+}
+
+.table td:nth-child(6) {
+    width: 15%;
+}
