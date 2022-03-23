@@ -1,0 +1,72 @@
+.projeto-main-body {
+    display: grid;
+    grid-template-areas:
+    'navbar navbar navbar'
+    'sidebar content content'
+    'footer footer footer';
+    grid-gap: 0.5em;
+}
+
+.navbar {
+    border: 5px solid red;
+    grid-area: navbar;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-img {
+    flex: 1;
+}
+
+.firefox-img {
+    width: 5em;
+    height: auto;
+}
+
+.navbar-item {
+    flex: 4;
+}
+
+ul.navbar-ul li {
+    display: inline;
+}
+
+.navbar-login {
+    flex: 1;
+}
+
+.sidebar {
+    border: 5px solid red;
+    grid-area: sidebar;
+}
+
+.sidebar-ul-li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.content-items {
+    border: 5px solid red;
+    grid-area: content;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.content-item {
+    border: 2px solid blue;
+    background-color: lightskyblue;
+    flex: 1;
+    margin: 5px;
+    min-width: 300px;
+}
+
+.footer {
+    border: 5px solid red;
+    grid-area: footer;
+}
+
+.item {
+    flex: 1;
+}
